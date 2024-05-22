@@ -3,7 +3,7 @@ package com.example.project;
 @SuppressWarnings("WeakerAccess")
 public class RecyclerViewItem {
 
-    private String title;
+    public String title;
 
     public RecyclerViewItem(String title) {
         this.title = title;
