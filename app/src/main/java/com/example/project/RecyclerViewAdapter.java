@@ -1,6 +1,7 @@
 package com.example.project;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(ViewHolder holder, int position) {
         RecyclerViewItem item = items.get(position);
         holder.title.setText(item.getName());
+        Log.d("hejhej","Size: " + item.getCompany() + " million sq km");
+
         holder.sizeSqkm.setText("Size: " + item.getCompany() + " million sq km");
         holder.population.setText("Population: " + item.getCost() + " million");
         holder.gdp.setText("GDP: $" + item.getAuxdata() + " trillion");

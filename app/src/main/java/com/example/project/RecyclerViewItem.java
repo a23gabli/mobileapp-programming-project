@@ -8,13 +8,12 @@ public class RecyclerViewItem {
     private String ID;
     @SerializedName("name")
     private String name;
-    private String type;
-    @SerializedName("sizesqkm")
+    @SerializedName("company")
 
     private String company;
-    @SerializedName("population")
+    @SerializedName("cost")
     private int cost;
-    @SerializedName("gdp")
+    @SerializedName("auxdata")
     private double auxdata;
 
     public RecyclerViewItem(String ID, String name, String company, int cost, double auxdata) {
@@ -40,14 +39,6 @@ public class RecyclerViewItem {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public String getCompany() {

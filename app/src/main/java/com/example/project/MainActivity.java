@@ -1,7 +1,9 @@
 package com.example.project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         view.setAdapter(adapter);
 
         getJson();
+
+
     }
 
     @Override
@@ -69,6 +73,11 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
     private void getJson() {
         new JsonTask(this).execute(JSON_URL);
         new JsonFile(this, this).execute(JSON_FILE);
+    }
+
+    public void openAboutActivity(View view) {
+        Intent intent = new Intent(this, About.class);
+        startActivity(intent);
     }
 
 }
