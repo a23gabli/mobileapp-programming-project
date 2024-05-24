@@ -1,4 +1,4 @@
-package com.danieloskarsson.recyclerviewapp;
+package com.example.project;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -34,7 +34,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.title.setText(items.get(position).getTitle());
+        RecyclerViewItem item = items.get(position);
+        holder.title.setText(item.getName());
+        holder.sizeSqkm.setText("Size: " + item.getCompany() + " million sq km");
+        holder.population.setText("Population: " + item.getCost() + " million");
+        holder.gdp.setText("GDP: $" + item.getAuxdata() + " trillion");
     }
 
     @Override
@@ -44,11 +48,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView title;
+        TextView sizeSqkm;
+        TextView population;
+        TextView gdp;
 
         ViewHolder(View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
             title = itemView.findViewById(R.id.title);
+            sizeSqkm = itemView.findViewById(R.id.sizeSqkm);
+            population = itemView.findViewById(R.id.population);
+            gdp = itemView.findViewById(R.id.gdp);
         }
 
         @Override

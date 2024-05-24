@@ -1,0 +1,57 @@
+[
+  {
+    "ID": "country_australia",
+    "name": "Australia",
+    "type": "a23gabli",
+    "company": "7.7",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 25,
+    "auxdata": 1.4
+  },
+  {
+    "ID": "country_brazil",
+    "name": "Brazil",
+    "type": "a23gabli",
+    "company": "8.5",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 213,
+    "auxdata": 1.4
+  },
+  {
+    "ID": "country_canada",
+    "name": "Canada",
+    "type": "a23gabli",
+    "company": "10",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 38,
+    "auxdata": 1.8
+  },
+  {
+    "ID": "country_japan",
+    "name": "Russia",
+    "type": "a23gabli",
+    "company": "17.1",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 146,
+    "auxdata": 1.7
+  },
+  {
+    "ID": "country_usa",
+    "name": "USA",
+    "type": "a23gabli",
+    "company": "9.8",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 331,
+    "auxdata": 25
+  }
+]
