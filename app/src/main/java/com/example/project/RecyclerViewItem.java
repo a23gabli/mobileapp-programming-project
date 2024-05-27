@@ -14,13 +14,12 @@ public class RecyclerViewItem {
     @SerializedName("cost")
     private int cost;
     @SerializedName("auxdata")
-    private double auxdata;
+    private String auxdata;
 
-    public RecyclerViewItem(String ID, String name, String company, int cost, double auxdata) {
+    public RecyclerViewItem(String ID, String name, String company, String auxdata) {
         this.ID = ID;
         this.name = name;
         this.company = company;
-        this.cost = cost;
         this.auxdata = auxdata;
     }
 
@@ -57,11 +56,11 @@ public class RecyclerViewItem {
         this.cost = cost;
     }
 
-    public double getAuxdata() {
+    public String getAuxdata() {
         return auxdata;
     }
 
-    public void setAuxdata(double auxdata) {
+    public void setAuxdata(String auxdata) {
         this.auxdata = auxdata;
     }
 }

@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Project</string>
+    <string name="app_name">BraedSpela</string>
+
+        <!-- Other strings -->
+        <string-array name="game_types">
+            <item>Frågesport</item>
+            <item>Monopoly</item>
+            <item>Schack</item>
+            <item>Strategispel</item>
+            <item>Fyra I Rad</item>
+        </string-array>
+
 </resources>

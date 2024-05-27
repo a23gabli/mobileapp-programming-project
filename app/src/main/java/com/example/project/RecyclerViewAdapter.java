@@ -37,11 +37,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(ViewHolder holder, int position) {
         RecyclerViewItem item = items.get(position);
         holder.title.setText(item.getName());
-        Log.d("hejhej","Size: " + item.getCompany() + " million sq km");
-
-        holder.sizeSqkm.setText("Size: " + item.getCompany() + " million sq km");
-        holder.population.setText("Population: " + item.getCost() + " million");
-        holder.gdp.setText("GDP: $" + item.getAuxdata() + " trillion");
+        holder.sizeSqkm.setText(item.getCompany() );
+        holder.gdp.setText( item.getAuxdata() );
     }
 
     @Override
@@ -52,7 +49,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView title;
         TextView sizeSqkm;
-        TextView population;
         TextView gdp;
 
         ViewHolder(View itemView) {
@@ -60,7 +56,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             itemView.setOnClickListener(this);
             title = itemView.findViewById(R.id.title);
             sizeSqkm = itemView.findViewById(R.id.sizeSqkm);
-            population = itemView.findViewById(R.id.population);
             gdp = itemView.findViewById(R.id.gdp);
         }
 

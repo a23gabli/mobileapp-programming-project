@@ -1,0 +1,112 @@
+[
+  {
+    "ID": "1",
+    "name": "Oskar",
+    "type": "",
+    "company": "Frågesport",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Tillgänglig"
+  },
+  {
+    "ID": "2",
+    "name": "Alice",
+    "type": "",
+    "company": "Monopoly",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Otillgänglig"
+  },
+  {
+    "ID": "3",
+    "name": "Erik",
+    "type": "",
+    "company": "Schack",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Tillgänglig"
+  },
+  {
+    "ID": "4",
+    "name": "Maja",
+    "type": "",
+    "company": "Strategispel",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Otillgänglig"
+  },
+  {
+    "ID": "5",
+    "name": "William",
+    "type": "",
+    "company": "Fyra I Rad",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Tillgänglig"
+  },
+  {
+    "ID": "6",
+    "name": "Linn",
+    "type": "",
+    "company": "Frågesport",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Otillgänglig"
+  },
+  {
+    "ID": "7",
+    "name": "Noah",
+    "type": "",
+    "company": "Monopoly",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Tillgänglig"
+  },
+  {
+    "ID": "8",
+    "name": "Ella",
+    "type": "",
+    "company": "Schack",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Otillgänglig"
+  },
+  {
+    "ID": "9",
+    "name": "Alexander",
+    "type": "",
+    "company": "Strategispel",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Tillgänglig"
+  },
+  {
+    "ID": "10",
+    "name": "Emil",
+    "type": "",
+    "company": "Fyra I Rad",
+    "location": "",
+    "category": "",
+    "size": 0,
+    "cost": 0,
+    "auxdata": "Otillgänglig"
+  }
+]
